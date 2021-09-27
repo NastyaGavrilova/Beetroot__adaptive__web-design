@@ -1,0 +1,18 @@
+.e-logo {
+  display: block;
+  text-decoration: none;
+  float: left;
+  // &__wrapper {
+  //   // align-items: flex-start;
+  //   // display: flex;
+
+  // }
+
+  &__link {
+    font-family: $f-pacifico;
+    font-size: em(50);
+    // margin-left: 3px;
+    color: $c-grey-dark;
+    line-height: 1;
+  }
+}

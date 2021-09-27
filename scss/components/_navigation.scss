@@ -1,0 +1,20 @@
+.c-navigation {
+  float: right;
+
+  &__item {
+    float: left;
+    padding-left: 37px;
+  }
+
+  @media screen and (max-width: 780px) {
+    &__item {
+      float: none;
+      padding-top: 5px;
+      text-align: right;
+
+      .e-link {
+        display: inline-block;
+      }
+    }
+  }
+}
